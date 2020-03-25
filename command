@@ -1,0 +1,1 @@
+python ./patch.py --static -s [0x080488EB]@readLog -s [0x080488B4]@__isoc99_scanfLog -p {\"__isoc99_scanfLog\":0x0804EEA0} ./examples/x86/static/a_static
